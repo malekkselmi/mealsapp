@@ -1,0 +1,39 @@
+
+.favorites{
+    background: rgb(236, 222, 222);
+   
+  }
+  
+  .favorites-content{
+    height: 150px;
+  }
+  .favorites-content h3 {
+    color: rgb(207, 89, 89);
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .favorites-container{
+    display:flex;
+    gap:0.5rem;
+    flex-wrap:wrap;
+  }
+  .favorite-item{
+    display : flex ;
+    flex-direction: column;
+    align-items: center;
+  }
+  .favorites-img{
+    margin-top: 10px;
+    width:60px;
+    border-radius:50%;
+    border:5px solid white;
+    cursor:pointer;
+  }
+  .remove-btn{
+    background:transparent;
+    color:rgb(146, 48, 61);
+    border:transparent;
+    cursor:pointer;
+    font-size:15px;
+  }
+  
